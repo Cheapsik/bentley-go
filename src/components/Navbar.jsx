@@ -33,7 +33,7 @@ const Navbar = ({ scrollY, mobileMenuOpen, setMobileMenuOpen, scrollToSection })
               </button>
             ))}
             <a
-              href="tel:999999999"
+              href="tel:666102648"
               className="px-6 xl:px-8 py-3 bg-gradient-to-r from-amber-500 to-yellow-600 text-black font-medium tracking-wider hover:shadow-lg hover:shadow-amber-500/50 transition-all duration-300 transform hover:scale-105"
             >
               ZADZWOŃ
@@ -60,7 +60,7 @@ const Navbar = ({ scrollY, mobileMenuOpen, setMobileMenuOpen, scrollToSection })
               </button>
             ))}
             <a
-              href="tel:999999999"
+              href="tel:666102648"
               className="block text-center py-3 bg-gradient-to-r from-amber-500 to-yellow-600 text-black font-medium tracking-wider"
             >
               ZADZWOŃ

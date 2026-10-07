@@ -40,14 +40,16 @@ const Footer = ({ scrollToSection }) => {
               Kontakt
             </h4>
             <div className="space-y-2 md:space-y-3 text-gray-500 font-light text-sm md:text-base">
-              <a href="tel:999999999" className="block hover:text-amber-400 transition-colors">
-                999 999 999
+              <a href="tel:666102648" className="block hover:text-amber-400 transition-colors">
+                666 102 648
               </a>
               <a
-                href="mailto:kontakt@bentleygo.pl"
-                className="block hover:text-amber-400 transition-colors break-all"
+                href="mailto:przemekharley69@gmail.com"
+                className="block hover:text-amber-400 transition-colors"
               >
-                kontakt@bentleygo.pl
+                przemekharley69@
+                <br />
+                gmail.com
               </a>
               <p>Rzeszów, Polska</p>
             </div>

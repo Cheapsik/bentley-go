@@ -25,13 +25,6 @@ const Hero = ({ scrollY, scrollToSection }) => {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-10 sm:pt-32 sm:pb-12 lg:py-32 overflow-x-clip">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div className="text-left">
-            <div className="inline-flex items-center gap-3 mb-5 md:mb-8">
-              <span className="h-px w-8 bg-amber-400" />
-              <span className="text-amber-400 text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.35em] uppercase">
-                Bentley Go · Rzeszów
-              </span>
-            </div>
-
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[3.5rem] xl:text-7xl font-thin leading-[1.08] mb-4 md:mb-6 tracking-tight">
               Luksus, który
               <br />
@@ -58,7 +51,7 @@ const Hero = ({ scrollY, scrollToSection }) => {
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a
-                href="tel:999999999"
+                href="tel:666102648"
                 className="group relative w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-amber-500 to-yellow-600 text-black font-semibold tracking-widest overflow-hidden transform hover:scale-[1.02] transition-all duration-300 text-sm"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -79,9 +72,9 @@ const Hero = ({ scrollY, scrollToSection }) => {
               </button>
             </div>
 
-            <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-8 md:mt-12 pt-6 md:pt-8 border-t border-amber-400/10">
+            <div className="grid grid-cols-3 gap-3 sm:gap-6 mt-8 md:mt-12 pt-6 md:pt-8 border-t border-amber-400/10">
               {highlights.map(({ icon: Icon, label }) => (
-                <div key={label} className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-3 text-center sm:text-left">
+                <div key={label} className="flex flex-col items-center justify-center gap-2 text-center">
                   <div className="shrink-0 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-amber-400/10 border border-amber-400/20 flex items-center justify-center">
                     <Icon size={14} className="text-amber-400 sm:w-4 sm:h-4" />
                   </div>
